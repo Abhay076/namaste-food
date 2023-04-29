@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    font-family: Roboto;
+    margin: 0;
+    /* background-color:#eee; */
+    padding: 0;
 }
+.logo {
+    width: 50px;
+}
+.head {
+    display: flex;
+    background-color: #15605e;
+    color: #fff;
+    padding:2rem;
+    justify-content: space-between;
+}
+.nav-items ul{
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+}
+.nav-items ul li{
+    list-style: none;
+} 
+.restaurant-list{
+    width:90%;
+    margin:2rem  auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap: 1rem;
+}
+.card {
+    padding: 1rem;
+    width:210px;
+    border-radius:5px;
+    box-shadow:5px 5px 10px 0 gray;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+}
+.card:hover{
+  cursor: pointer;
+  border: 1px solid black;
+}
+.ratings {
+    display:flex;
+    justify-content:space-between;
+    border-radius:5px;
+    margin-top:1rem;
+}
+.card > img {
+    width:100%;
+    border-radius:5px;
+}
+.footer {
+    text-align:center;
+    padding:1rem;
+    margin-top:2rem;
+    background-color:#15605e;
+    color:white;
 }
