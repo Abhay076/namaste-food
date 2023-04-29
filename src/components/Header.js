@@ -3,6 +3,7 @@ const Header = () => {
   return (
     <div className="head">
       <Title />
+      
       <div className="nav-items">
         <ul>
           <li>Home</li>

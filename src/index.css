@@ -59,3 +59,7 @@ body{
     background-color:#15605e;
     color:white;
 }
+.filter_btn{
+    margin: 20px;
+    cursor: pointer;
+}
